@@ -1,4 +1,4 @@
-object ScalaSettings {
+object ScalaSettings:
   val baseSettings: List[String] = List(
     "-Wunused:explicits",
     "-Wunused:implicits",
@@ -20,4 +20,3 @@ object ScalaSettings {
     "-unchecked",
     "-deprecation"
   )
-}

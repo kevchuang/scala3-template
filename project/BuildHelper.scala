@@ -1,7 +1,7 @@
 import sbt.Keys.*
 import sbt.*
 
-object BuildHelper {
+object BuildHelper:
   val scala3 = "3.3.1"
 
   def nameSettings: List[Setting[String]] = List(
@@ -20,4 +20,3 @@ object BuildHelper {
     run / fork               := true,
     testFrameworks += new TestFramework("weaver.framework.CatsEffect")
   )
-}
